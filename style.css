@@ -15,6 +15,14 @@ body {
 .orange-text {
   color: #f18f4a;
 }
+.big-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.second-big-text {
+  font-size: 2rem;
+  color: gray;
+}
 .paragraph-text {
   color: rgb(126, 123, 123);
   font-size: 1.2rem;
@@ -26,7 +34,7 @@ body {
   background-image: linear-gradient(to right, #f18f4a, #ef4d30);
   padding: 1rem 2rem;
   border-radius: 2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   color: white;
   font-weight: 700;
 }
@@ -39,7 +47,24 @@ body {
 #header-text-section {
   margin-top: 5rem;
 }
-#header-text-section h1 {
-  font-size: 3rem;
-  font-weight: 700;
+
+/* about me section styles  */
+.about-me-section {
+  height: 70vh;
+  margin: 1rem 0;
+  padding: 5rem 10rem 0rem 10rem;
+  background-color: #ebe4e0;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position:top left; */
+}
+.about-me-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.about-me-text {
+  margin-top: 5rem;
 }
