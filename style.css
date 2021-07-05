@@ -119,3 +119,30 @@ footer p{
     color: white;
     font-size: 1.2rem;
 }
+
+
+/* extra section css  */
+header{
+    min-height: 5vh;
+    background: white;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav h1 span{
+    color: #EF5232;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
