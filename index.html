@@ -14,17 +14,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <!-- extra section added  -->
+    <!-- extra section added  -->
     <header>
-        <nav>
-            <h1 class="logo"><span>FOOD</span> NETWORK</h1>
-            <ul>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#recipies">My Recipies</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-
+      <nav>
+        <h1 class="logo"><span>FOOD</span> NETWORK</h1>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#recipies">My Recipies</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- section 1 code start here  -->
     <section class="header-section flex">
@@ -45,7 +44,7 @@
       </div>
     </section>
     <!-- about me section start here  -->
-    <section class="about-me-section flex">
+    <section class="about-me-section flex" id="about">
       <div class="half about-me-image">
         <img
           src="images/female/Person Image.png"
@@ -66,7 +65,7 @@
     </section>
     <!-- recipies section start here  -->
 
-    <section class="recipies-title text-center">
+    <section class="recipies-title text-center" id="recipies">
       <h2 class="second-big-text">My Recipies</h2>
       <p class="paragraph-text">
         Today I'm going to show you how to make my favourite dish. My favourite
@@ -121,6 +120,19 @@
         <h1 class="big-text">100K</h1>
         <p>Dribble Shot Likes</p>
       </div>
+    </section>
+    <!-- contact us section  -->
+    <section class="contact" id="contact">
+      <h1 class="second-big-text text-center">Contact Us</h1>
+      <form>
+        <label for="name">Name : </label>
+        <input type="text" id="name" placeholder="Enter Your name.." />
+        <label for="name">Email : </label>
+        <input type="text" id="name" placeholder="Enter Your Email.." />
+        <label for="message">Message : </label>
+        <textarea id="message" placeholder="Enter Your Message"></textarea>
+        <button class="button">Submit</button>
+      </form>
     </section>
     <!-- footer section  -->
     <footer class="text-center">
