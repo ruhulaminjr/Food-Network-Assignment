@@ -1,7 +1,45 @@
-/* css reset style  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+/* css reset and default style  */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.half {
+  width: 50%;
+}
+.orange-text {
+  color: #f18f4a;
+}
+.paragraph-text {
+  color: rgb(126, 123, 123);
+  font-size: 1.2rem;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #f18f4a, #ef4d30);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+/* header section styles  */
+
+.header-section {
+  margin-left: 10rem;
+}
+#header-text-section {
+  margin-top: 5rem;
+}
+#header-text-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
