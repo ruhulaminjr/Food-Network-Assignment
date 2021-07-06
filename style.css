@@ -9,6 +9,9 @@ body {
   display: flex;
   /* flex-wrap: wrap; */
 }
+.shadow {
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
+}
 .half {
   width: 50%;
 }
@@ -25,7 +28,7 @@ body {
   color: gray;
   font-weight: 700;
 }
-.paragraph-text{
+.paragraph-text {
   color: rgb(126, 123, 123);
   font-size: 1.2rem;
   font-weight: 400;
@@ -87,7 +90,6 @@ body {
   width: 30%;
   background: white;
   padding: 1rem;
-  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   margin-left: 2rem;
 }
@@ -102,7 +104,6 @@ body {
 .follower-section {
   width: 80%;
   margin: 2rem auto;
-  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
   padding: 2rem 0;
   border-radius: 1rem;
 }
@@ -111,76 +112,56 @@ body {
 }
 
 /* footer styles  */
-footer{
-    background: rgb(32, 32, 32);
-    padding: 1rem 0 3rem 0;
+footer {
+  background: rgb(32, 32, 32);
+  padding: 1rem 0 3rem 0;
 }
-footer p{
-    color: white;
-    font-size: 1.2rem;
+footer p {
+  color: white;
+  font-size: 1.2rem;
 }
-
 
 /* extra section css  */
 html {
-    scroll-behavior: smooth;
- }
-header{
-    min-height: 5vh;
-    background: white;
-    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
+  scroll-behavior: smooth;
 }
-nav{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+header {
+  min-height: 5vh;
+  background: white;
 }
-nav h1 span{
-    color: #EF5232;
+nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-nav ul{
-    display: flex;
-    list-style: none;
+nav h1 span {
+  color: #ef5232;
 }
-nav ul li a{
-    text-decoration: none;
-    color: gray;
-    font-size: 1.2rem;
-    margin-left: 2rem;
+nav ul {
+  display: flex;
+  list-style: none;
 }
-
-/* contact section styles  */
-.contact{
-    display: block;
-    width: 80%;
-    margin: 2rem auto;
-    background: white;
-    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.2);
-    padding: 2rem 5rem;
-    border-radius: 1rem;
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2rem;
+  margin-left: 2rem;
 }
-form{
-    width: 50%;
-    margin: auto;
+/* item section  */
+.item-section {
+  width: 80%;
+  margin: 2rem auto;
 }
-input{
-    display: block;
-    padding: 1rem 2rem;
-    width: 400px;
-    margin: 1rem 0;
-    outline: none;
-    font-size: 1.2rem;
+.item {
+  width: 200px;
+  padding: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
 }
-textarea{
-    display: block;
-    width: 400px;
-    height: 200px;
-    font-size: 2rem;
-    outline: none;
-}
-form button{
-    outline: none;
-    border: none;
-    cursor: pointer;
+.item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
